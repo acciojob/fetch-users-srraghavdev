@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div>
         <h1>Blue Whales</h1>
-        <button onClick={fetchdata}>Get user List</button>
+        <button onClick={fetchdata} className="btn">Get user List</button>
        <table>
         <tr>
           <td>First Name</td>
